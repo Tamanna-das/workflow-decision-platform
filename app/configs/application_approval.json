@@ -1,0 +1,16 @@
+{
+  "rules": [
+    {
+      "field": "age",
+      "operator": ">=",
+      "value": 18,
+      "on_fail": "REJECTED"
+    },
+    {
+      "field": "credit_score",
+      "operator": ">=",
+      "value": 650,
+      "on_fail": "MANUAL_REVIEW"
+    }
+  ]
+}
