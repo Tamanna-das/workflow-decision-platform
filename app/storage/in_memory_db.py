@@ -1,0 +1,5 @@
+DB = {
+    "state": {},
+    "audit": {},
+    "idempotency": {}
+}
